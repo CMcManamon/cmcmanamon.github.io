@@ -2964,6 +2964,16 @@ input, select, textarea {
 				height: 30vw;
 			}
 
+			.gallery a.portraitFull img {
+				height: 30vw;
+				object-fit: contain;
+			}
+
+			.gallery a.landscapeContain img {
+				
+				object-fit: cover;
+			}
+
 		.gallery .modal {
 			display: -moz-flex;
 			display: -webkit-flex;
