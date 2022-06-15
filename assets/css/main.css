@@ -2974,15 +2974,6 @@ input, select, textarea {
 				object-fit: cover;
 			}
 
-			.gallery iframe {
-				border-bottom: 0;
-				display: block;
-				outline: 0;
-				position: relative;
-				object-fit: cover;
-				object-position: center;
-				width: 100%;
-			}
 
 		.gallery .modal {
 			display: -moz-flex;
