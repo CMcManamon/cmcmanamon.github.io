@@ -2974,14 +2974,25 @@ input, select, textarea {
 				object-fit: cover;
 			}
 
-			.gallery iframe {
+			.gallery .youtube-video-container {
+				position: relative;
+				overflow: hidden;
+				width: 100%;
+			  }
+			  
+			  .gallery .youtube-video-container::after {
 				display: block;
-				object-fit: contain;
-				object-position: center;
-				width: 85vw;
-				height: 47.8vw;
-				
-			}
+				content: "";
+				padding-top: 56.25%;
+			  }
+			  
+			  .gallery .youtube-video-container iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			  }
 
 		.gallery .modal {
 			display: -moz-flex;
