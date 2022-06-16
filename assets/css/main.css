@@ -2974,6 +2974,14 @@ input, select, textarea {
 				object-fit: cover;
 			}
 
+			.gallery iframe {
+				display: block;
+				object-fit: contain;
+				object-position: center;
+				width: 85vw;
+				height: 47.8vw;
+				
+			}
 
 		.gallery .modal {
 			display: -moz-flex;
