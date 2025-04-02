@@ -25,14 +25,14 @@
         <header>
           <h1>Software Dev</h1>
           <h3>Christopher McManamon</h3>
-          <p>
-            <div id="poem">
-              I am a leaf on the wind<br />
-              Sailing the creative currents<br />
-              Of my imagination.
-            </div>
-            <br />Software developer. Creative writer. Editor.
-          </p>
+
+          <div id="poem">
+            I am a leaf on the wind<br />
+            Sailing the creative currents<br />
+            Of my imagination.
+          </div>
+          <br />Software developer. Creative writer. Editor.
+
           <ul class="actions">
             <li>
               <a href="#first" class="arrow scrolly"
@@ -50,69 +50,40 @@
         </div>
       </section>
 
-      
-      <!-- Section Workout Calendar -->
+      <!-- Section Task Reminder -->
       <section id="first">
         <header>
-          <h2>Workout Calendar</h2>
-          <h3>React | JS | HTML | CSS</h3>
-        </header>
-        <div class="content">
-          <p>
-            <strong>Workout calendar web app</strong> to record daily and weekly progress. Front-end React app. State is saved to local storage. Responsive design adapts to desktop and mobile devices.           
-          </p>
-          <p>
-            This app is inspired by (is a clone of) the paper calendar included in the BeachBody T25 Gamma DVD set. After years of use, my printout became too tattered to reuse, so I created this app to replicate the experience. Exercise days provide two exclusive checkboxes: Nailed It or Barely Made It. "STATurday" lets the user record their weekly measurements.
-          </p>
-          <p>
-            Feature backlog:
-            <ul><li>Template builder for creating new workouts</li>
-              <li>Share and load user-created templates</li>
-              <li>Improve responsive design on tablet-sized devices</li>
-          </ul>
-          </p>
-          <p>
-            <a
-              href="https://github.com/CMcManamon/workout-calendar"
-              target="_blank"
-              rel="noopener noreferrer"
-              >View on GitHub</a
-            >
-          </p>
-          <span class="image main">
-            <a href="images/gallery/fulls/workout-calendar-full.png" class="landscape"
-            ><img src="images/gallery/fulls/workout-calendar-full.png" alt=""
-          /></a>
-          </span>
-          
-          <div class="gallery">  
-            <a href="images/gallery/fulls/workout-calendar-mobile.png"
-              ><img src="images/gallery/fulls/workout-calendar-mobile.png" alt=""
-            /></a>
-          </div>
-        
-        </div>
-      </section>
-
-
-      <!-- Section Task Reminder -->
-      <section id="tasks">
-        <header>
           <h2>Task Reminder</h2>
-          <h3>MongoDB | Express | React | Redux | Node | HTML | CSS | JS</h3>
+          <h3>
+            MongoDB | Express | React | Node <br />HTML | CSS | JS <br />Redux |
+            MUI | Google OAuth2
+          </h3>
         </header>
         <div class="content">
           <p>
-            <strong>Full-Stack MERN application</strong> to manage non-scheduled recurring tasks. React front-end using MaterialUI library with Express/Node back-end. MongoDB data storage.           
+            <strong>Full-Stack MERN application</strong> to manage recurring
+            tasks without strict commitments. React frontend utilizing
+            MaterialUI library with Express/Node backend. MongoDB data storage.
+            Google OAuth2 provides authentication to access your data across
+            multiple devices.
           </p>
           <p>
-            Sometimes, we have recurring tasks which do not conform to specific dates. It's not a big deal if we forget to schedule a yearly maintenance checkup after 365 days. It's OK if our weekly vacuuming doesn't occur on Thursday every time. This minimalistic task reminder is not cluttered with hundreds of options or specificity. No scrolling through calendars. Simply choose when to begin a task (today? tomorrow? next week?) and how often to repeat it. Tasks are automatically sorted by due date and priority. For example, a daily task which you neglected is weighted higher than a yearly task overdue by a week.
+            I built this app for personal use when I couldn't find a task
+            manager that met my requirements.
           </p>
           <p>
-            Feature backlog TBD:
-            <ul><li>Implement user login with Google OAuth</li>
-          </ul>
+            Sometimes, we have recurring tasks which do not conform to specific
+            dates. It's not a big deal if we forget to schedule a yearly
+            maintenance checkup after 365 days. It's OK if our weekly vacuuming
+            doesn't occur on Thursday every time. This minimalistic task
+            reminder is not cluttered with dozens of menus or task refinement
+            options. No scrolling through calendars. Simply choose when to begin
+            a task (today? tomorrow? next week?) and how often to repeat it.
+            Tasks are automatically sorted by a formula that takes into account
+            due date and interval. For example, a daily task which you neglected
+            is weighted higher than a yearly task overdue by a week.
           </p>
+
           <p>
             <a
               href="https://github.com/CMcManamon/task-reminder"
@@ -128,14 +99,60 @@
             <a href="images/gallery/fulls/task-manager-demo2.png"
               ><img src="images/gallery/fulls/task-manager-demo2.png" alt=""
             /></a>
-            <a href="images/gallery/fulls/task-manager-demo3.png" class="landscape"
+            <a
+              href="images/gallery/fulls/task-manager-demo3.png"
+              class="landscape"
               ><img src="images/gallery/fulls/task-manager-demo3.png" alt=""
             /></a>
           </div>
-        
         </div>
       </section>
 
+      <!-- Section Workout Calendar -->
+      <section id="workout-calendar">
+        <header>
+          <h2>Workout Calendar</h2>
+          <h3>React | JS | HTML | CSS</h3>
+        </header>
+        <div class="content">
+          <p>
+            <strong>Workout calendar web app</strong> to record daily and weekly
+            progress. Front-end React app. State is saved to local storage.
+            Responsive design adapts to desktop and mobile devices.
+          </p>
+          <p>
+            For years, I'd been making and erasing pencil checkmarks on the
+            paper workout calendar included with the BeachBody T25 Gamma DVD
+            set. Over time, the printout became too tattered to reuse, so I used
+            CSS to replicate its design in this web app. Additionally, I used
+            media queries to design a new responsive layout for mobile devices.
+          </p>
+
+          <p>
+            <a
+              href="https://github.com/CMcManamon/workout-calendar"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View on GitHub</a
+            >
+          </p>
+          <span class="image main">
+            <a
+              href="images/gallery/fulls/workout-calendar-full.png"
+              class="landscape"
+              ><img src="images/gallery/fulls/workout-calendar-full.png" alt=""
+            /></a>
+          </span>
+
+          <div class="gallery">
+            <a href="images/gallery/fulls/workout-calendar-mobile.png"
+              ><img
+                src="images/gallery/fulls/workout-calendar-mobile.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
 
       <!-- Section Alchemy Price Checker -->
       <section id="alchemy">
@@ -145,30 +162,28 @@
         </header>
         <div class="content">
           <p>
-            <strong>React front-end web app</strong> to aid in market decisions
-            in the WoW video game. This Price Checker connects with
+            <strong>React front-end web app</strong> fetches data from a
+            3rd-party API.
+          </p>
+          <p>
+            I built this web app for a private client who was tired of tabbing
+            in and out of the World of Warcraft video game to update their
+            spreadsheets with the latest in-game raw material costs and
+            finished-product prices. When a free, 3rd-party auction house API,
             <a
               href="https://nexushub.co"
               target="_blank"
               rel="noopener noreferrer"
               >NexusHub.co</a
-            >
-            API to retrieve market data for craftable alchemy items and their
-            materials, then displays the difference in price between the item's
-            sell value and its crafting cost. With this app, the user can
-            readily see which items are currently profitable on the selected
-            server and faction, or decide between buying a finished product and
-            crafting it oneself.<br />Additional options include selection of
-            proc chance (for users with profession mastery) and toggle to
-            calculate auction house fees.
+            >, became available, I saw this as an opportunity to streamline the
+            process. The Alchemy Price Checker fetches all relevant data,
+            calculates potential profit or loss (taking into account auction
+            fees and RNG boosts), and sorts the results. Using this tool, a
+            crafter can make informed decisions to maximize their profits.
           </p>
           <p>
-            <a
-              href="https://leafwindstudio.com/alchemy-market"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Try it Live</a
-            ><br />
+            * Note: NexusHub.co is now defunct, and the Alchemy Price Checker is
+            no longer maintained.<br />
             <a
               href="https://github.com/CMcManamon/alchemy-market"
               target="_blank"
@@ -190,11 +205,12 @@
         </header>
         <div class="content">
           <p>
-            <strong>Math learning game</strong> developed in Unity and published
-            to Google Play Store for Android devices. 2022 revamp for WebGL.
-            This game is suitable for all ages and can help children practice
-            addition and subtraction through negative numbers. Combine numbers to match the target
-            number. Complete a row or column before time runs out.
+            <strong>Educational Math Game</strong> developed in Unity and
+            published to Google Play Store for Android devices. 2022 revamp for
+            WebGL makes the game playable in most web browsers. Suitable for all
+            ages, it can help young children practice basic arithmetic. Combine
+            numbers to match the target number. Complete a row or column before
+            time runs out.
           </p>
           <p>
             <a
@@ -255,7 +271,7 @@
               >More details and reviews</a
             >
           </p>
-          <strong>My contributions:</strong>
+          <strong>My contributions as co-developer:</strong>
           <ul>
             <li>
               Gameplay objectives including node control, score, and win
@@ -265,6 +281,7 @@
             <li>Spell targeting system</li>
             <li>GUI functionality</li>
             <li>Map design and detailing</li>
+            <li>Spells and effects</li>
           </ul>
           <div class="gallery">
             <div class="youtube-video-container">
@@ -333,33 +350,37 @@
           <ul>
             <!-- Tip Calculator -->
             <li>
-            <a
-              href="https://github.com/CMcManamon/tip-calculator"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Tip Calculator</a
-            ><br>
-            <ul><li>
-            <strong>Android app that calculates tips.</strong> When the user enters the price and tip percent, the program calculates how much to
-            tip and the total bill.
-            </li>
-            <li>Android Studio | Java | XML | Mobile</li>
-          </ul>
+              <a
+                href="https://github.com/CMcManamon/tip-calculator"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Tip Calculator</a
+              ><br />
+              <ul>
+                <li>
+                  <strong>Android app that calculates tips.</strong> When the
+                  user enters the price and tip percent, the program calculates
+                  how much to tip and the total bill.
+                </li>
+                <li>Android Studio | Java | XML | Mobile</li>
+              </ul>
             </li>
 
             <!-- DVD Manager -->
             <li>
               <a
-              href="https://github.com/CMcManamon/dvd-manager"
-              target="_blank"
-              rel="noopener noreferrer"
-              >DVD Manager</a
-            ><br>
-            <ul><li>
-              <strong>Java GUI application</strong> for inserting, removing, and
-            displaying information about a DVD collection.
-            </li>
-          <li>Java Swing</li></ul>
+                href="https://github.com/CMcManamon/dvd-manager"
+                target="_blank"
+                rel="noopener noreferrer"
+                >DVD Manager</a
+              ><br />
+              <ul>
+                <li>
+                  <strong>Java GUI application</strong> for inserting, removing,
+                  and displaying information about a DVD collection.
+                </li>
+                <li>Java Swing</li>
+              </ul>
             </li>
 
             <!-- Mortgage Calculator -->
@@ -369,24 +390,24 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 >Mortgage Calculator</a
-              ><br>
-              <ul><li>
-                <strong>Webpage that calculates mortgage</strong> using servlets.
-                JavaScript performs form validation. A simplified model of mortgage
-                is used. Given the principal amount, interest rate, and monthly
-                payment, this program calculates how long it will take to pay off
-                the mortgage and how much is spent on interest. A log of
-                calculations is saved using session attributes, and previous inputs
-                can be clicked on to be added to the calculator's fields.
-              </li>
-              <li>JSP | Servlets | HTML | Java | JavaScript</li>
-            </ul>
-              </li>            
+              ><br />
+              <ul>
+                <li>
+                  <strong>Webpage that calculates mortgage</strong> using
+                  servlets. JavaScript performs form validation. A simplified
+                  model of mortgage is used. Given the principal amount,
+                  interest rate, and monthly payment, this program calculates
+                  how long it will take to pay off the mortgage and how much is
+                  spent on interest. A log of calculations is saved using
+                  session attributes, and previous inputs can be clicked on to
+                  be added to the calculator's fields.
+                </li>
+                <li>JSP | Servlets | HTML | Java | JavaScript</li>
+              </ul>
+            </li>
           </ul>
-         
         </div>
       </section>
-
 
       <!-- Section Developmental Editor -->
       <section>
@@ -395,20 +416,40 @@
           <h3></h3>
         </header>
         <div class="content">
-          <p><strong>As a freelance developmental editor</strong>, I collaborate with authors to elevate their stories. My perspective as an avid reader of sci-fi and fantasy novels enables me to offer genre-based insights on early-draft manuscripts. First impressions, character analysis, story structure, and identification of plot holes and pacing issues are among the feedback I provide. Additionally, I can perform line-editing services to eliminate typos not caught by spellcheckers or AI, and make sentences more clear and concise.</p>
+          <p>
+            <strong>As a freelance developmental editor</strong>, I collaborate
+            with authors to shape their stories and bring their visions to life.
+            My perspective as an avid reader of sci-fi and fantasy novels
+            enables me to offer genre-based insights on early-draft manuscripts.
+            First impressions, character analysis, story structure, and
+            identification of plot holes and pacing issues are among the
+            feedback I provide. Additionally, I can perform line-editing
+            services to eliminate typos not caught by spellcheckers or AI, and
+            make sentences more clear and concise.
+          </p>
           <div class="gallery">
-            <a href="images/gallery/fulls/editor_collage_01.png" class="landscape"
-              ><img src="images/gallery/fulls/editor_collage_01.png" alt="Editor comments"
+            <a
+              href="images/gallery/fulls/editor_collage_01.png"
+              class="landscape"
+              ><img
+                src="images/gallery/fulls/editor_collage_01.png"
+                alt="Editor comments"
             /></a>
-            <div class="image main" style="border: 1px dotted"><img src="images/gallery/fulls/editor_01.png" alt="Line-edit suggestions"
-              /></div>
-            <div class="image main" style="border: 1px dotted"><img src="images/gallery/fulls/editor_02.png" alt="Story analysis"
-              /></div>
+            <div class="image main" style="border: 1px dotted">
+              <img
+                src="images/gallery/fulls/editor_01.png"
+                alt="Line-edit suggestions"
+              />
+            </div>
+            <div class="image main" style="border: 1px dotted">
+              <img
+                src="images/gallery/fulls/editor_02.png"
+                alt="Story analysis"
+              />
+            </div>
           </div>
         </div>
       </section>
-
-
 
       <!-- Section -->
       <section>
